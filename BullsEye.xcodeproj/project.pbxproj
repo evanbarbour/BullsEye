@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B465A8EB21F67241008DD330 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = B465A8EA21F67241008DD330 /* BullsEye.html */; };
 		B49D0E8021F3D00600E21E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D0E7F21F3D00600E21E65 /* AppDelegate.swift */; };
 		B49D0E8221F3D00600E21E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D0E8121F3D00600E21E65 /* ViewController.swift */; };
 		B49D0E8521F3D00600E21E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49D0E8321F3D00600E21E65 /* Main.storyboard */; };
 		B49D0E8721F3D00800E21E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49D0E8621F3D00800E21E65 /* Assets.xcassets */; };
 		B49D0E8A21F3D00800E21E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49D0E8821F3D00800E21E65 /* LaunchScreen.storyboard */; };
+		B49D0E9221F5504900E21E65 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D0E9121F5504900E21E65 /* AboutViewController.swift */; };
+		B49D0E9421F60F7B00E21E65 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D0E9321F60F7B00E21E65 /* AboutAuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B465A8EA21F67241008DD330 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../../Downloads/5-06-web-views-and-developer-documentation/BullsEye.html"; sourceTree = "<group>"; };
 		B49D0E7C21F3D00600E21E65 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49D0E7F21F3D00600E21E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B49D0E8121F3D00600E21E65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		B49D0E8621F3D00800E21E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B49D0E8921F3D00800E21E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B49D0E8B21F3D00800E21E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49D0E9121F5504900E21E65 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		B49D0E9321F60F7B00E21E65 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				B49D0E7F21F3D00600E21E65 /* AppDelegate.swift */,
 				B49D0E8121F3D00600E21E65 /* ViewController.swift */,
+				B49D0E9121F5504900E21E65 /* AboutViewController.swift */,
 				B49D0E8321F3D00600E21E65 /* Main.storyboard */,
+				B49D0E9321F60F7B00E21E65 /* AboutAuthorViewController.swift */,
 				B49D0E8621F3D00800E21E65 /* Assets.xcassets */,
 				B49D0E8821F3D00800E21E65 /* LaunchScreen.storyboard */,
 				B49D0E8B21F3D00800E21E65 /* Info.plist */,
+				B465A8EA21F67241008DD330 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B49D0E8A21F3D00800E21E65 /* LaunchScreen.storyboard in Resources */,
+				B465A8EB21F67241008DD330 /* BullsEye.html in Resources */,
 				B49D0E8721F3D00800E21E65 /* Assets.xcassets in Resources */,
 				B49D0E8521F3D00600E21E65 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49D0E9221F5504900E21E65 /* AboutViewController.swift in Sources */,
 				B49D0E8221F3D00600E21E65 /* ViewController.swift in Sources */,
 				B49D0E8021F3D00600E21E65 /* AppDelegate.swift in Sources */,
+				B49D0E9421F60F7B00E21E65 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7SU7CTN49;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7SU7CTN49;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
